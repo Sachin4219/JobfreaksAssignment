@@ -5,7 +5,7 @@
     <title>Hello, world!</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -30,28 +30,21 @@
           <span> Contact Us </span>
         </div>
         <div class="sidebarElement">
-          <i class="fa-solid fa-circle-info"></i>
-          <span> Whatnot </span>
+          <i class="fa-solid fa-compass" style="color: #ffffff;"></i>
+          <span> Guide </span>
         </div>
       </div>
       <div class="sectionContainer">
         <div class="section">
           <div class="content home">
             <div
-              style="
-                height: 300px;
-                display: flex;
-                flex-direction: column;
-                gap: 24px;
-                justify-content: center;
-                align-items: center;
-              "
+              class="homeHeader"
             >
               <h1 style="font-size: xx-large">Welcome</h1>
               <p style="font-size: large">
                 This is the home page for jobfreak assignment
               </p>
-              <div>
+              <div class="homeLinks">
                 <a href="https://jobfreak.in/" target="_blank" style="color: white;">Our Website</p>
                   <a href="https://t.me/JobFreak" target="_blank" style="color: white;">
                     Telegram Link
@@ -83,7 +76,7 @@
                 <a href="https://t.me/JobFreak" target="_blank"
                   ><i
                     class="fa-brands fa-telegram"
-                    style="color: #0064ff; font-size: 32px"
+                    style="color: #0064ff; font-size: xx-large"
                   ></i
                 ></a>
               </p>
@@ -91,18 +84,12 @@
           </div>
           <div class="content contactUs">
             <div
-              style="width: 100%; display: flex; justify-content: space-between"
+              class="contactHeader"
             >
               <h1>Contact Us</h1>
               <div
-                style="
-                  display: flex;
-                  flex-direction: column;
-                  gap: 5px;
-                  font-size: smaller;
-                "
               >
-                <p>Phone : +91XXXYYYZZZZ</p>
+                <p style="margin-bottom: 5px;">Phone : +91XXXYYYZZZZ</p>
                 <p>Email : trymeanddie@none.com</p>
               </div>
             </div>
@@ -140,12 +127,29 @@
               <button class="submitBtn" type="submit">Send Message</button>
             </form>
           </div>
-          <div class="content whatNot">
-            <h1>Whatnot</h1>
+          <div class="content guide">
+            <h1>Explore Some of opportunities posted by us</h1>
+            <div>
+              <a href="https://jobfreak.in/">
+                <img src="./assets/jobs.png" alt="some job listing from jobfreak">
+              </a>
+              <a href="https://jobfreak.in/">
+                <img src="./assets/jobs.png" alt="some job listing from jobfreak">
+              </a>
+              <a href="https://jobfreak.in/">
+                <img src="./assets/jobs.png" alt="some job listing from jobfreak">
+              </a>
+              <a href="https://jobfreak.in/">
+                <img src="./assets/jobs.png" alt="some job listing from jobfreak">
+              </a>
+              <a href="https://jobfreak.in/">
+                <img src="./assets/jobs.png" alt="some job listing from jobfreak">
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </body>
-  <script type="text/javaScript" src="/js/script.js"></script>
+  <script type="text/javaScript" src="./js/script.js"></script>
 </html>
