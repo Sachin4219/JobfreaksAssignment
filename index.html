@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello, world!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebarElement">
+          <i class="fa-solid fa-house"></i>
+          <span> Home </span>
+        </div>
+        <div class="sidebarElement">
+          <i class="fa-solid fa-user"></i>
+          <span> About Us </span>
+        </div>
+        <div class="sidebarElement">
+          <i class="fa-solid fa-phone"></i>
+          <span> Contact Us </span>
+        </div>
+        <div class="sidebarElement">
+          <i class="fa-solid fa-circle-info"></i>
+          <span> Whatnot </span>
+        </div>
+      </div>
+      <div class="sectionContainer">
+        <div class="section">
+          <div class="content home">
+            <div
+              style="
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <h1 style="font-size: xx-large">Welcome</h1>
+              <p style="font-size: large">
+                This is the home page for jobfreak assignment
+              </p>
+              <div>
+                <a href="https://jobfreak.in/" target="_blank" style="color: white;">Our Website</p>
+                  <a href="https://t.me/JobFreak" target="_blank" style="color: white;">
+                    Telegram Link
+                    <i
+                    class="fa-brands fa-telegram"
+                    style="color: #0064ff; background-color: #fff; border-radius: 50%; font-size: 32px"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="content aboutUs">
+            <div class="aboutHeader">
+              <img src="./assets/transparent.png" />
+              <p>JobFreaks</p>
+            </div>
+            <div class="aboutContent">
+              <h2>Who we are ?</h2>
+              <p>
+                We are a goal driven community that connects job aspirants to
+                opportunities in the world of technology.
+                <br />
+                <br />
+                We regularly post updates on jobs and internships on our website
+                and telegram channel for you.
+                <br />
+                <br />
+                If you are interested in our work join our telegram channel
+                <a href="https://t.me/JobFreak" target="_blank"
+                  ><i
+                    class="fa-brands fa-telegram"
+                    style="color: #0064ff; font-size: 32px"
+                  ></i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <div class="content contactUs">
+            <div
+              style="width: 100%; display: flex; justify-content: space-between"
+            >
+              <h1>Contact Us</h1>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  gap: 5px;
+                  font-size: smaller;
+                "
+              >
+                <p>Phone : +91XXXYYYZZZZ</p>
+                <p>Email : trymeanddie@none.com</p>
+              </div>
+            </div>
+            <form>
+              <div class="inputElement">
+                <label for="nameInput">Your name</label>
+                <input
+                  class="input"
+                  name="Name"
+                  id="nameInput"
+                  type="text"
+                  placeholder="John Doe"
+                />
+              </div>
+              <div class="inputElement">
+                <label for="emailInput">Your email</label>
+                <input
+                  class="input"
+                  name="Email"
+                  id="emailInput"
+                  type="text"
+                  placeholder="willy@chocolatefactory.com"
+                />
+              </div>
+              <div class="inputElement">
+                <label for="messageInput">Your Message</label>
+                <textarea
+                  class="input"
+                  name="Name"
+                  id="nameInput"
+                  rows="4"
+                  placeholder="We really like your website and ..."
+                ></textarea>
+              </div>
+              <button class="submitBtn" type="submit">Send Message</button>
+            </form>
+          </div>
+          <div class="content whatNot">
+            <h1>Whatnot</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javaScript" src="/js/script.js"></script>
+</html>

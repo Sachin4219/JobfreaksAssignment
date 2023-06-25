@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(230, 240, 250);
+}
+
+.sidebar {
+  box-sizing: border-box;
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 32px 12px;
+  gap: 50px;
+  background-color: rgb(100, 50, 250);
+  transition: 1s;
+  z-index: 100;
+}
+
+.sidebarElement {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: fit-content;
+  height: 24px;
+  padding: 10px 12px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebarElement i {
+  width: 24px;
+}
+
+.sidebarElement span {
+  display: none;
+}
+
+.sidebar:hover .sidebarElement span {
+  display: block;
+}
+
+.sectionContainer {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 10;
+  background-image: url("https://img.freepik.com/free-vector/internship-job-illustration_23-2148723003.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.section {
+  float: right;
+  width: calc(100% - 160px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 60%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 24px;
+  border-radius: 10px;
+}
+.home {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(10px);
+}
+.aboutUs {
+  display: none;
+  gap: 24px;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px #aaa;
+  backdrop-filter: blur(5px);
+}
+.aboutHeader {
+  width: auto;
+  padding: 10px 20px;
+  text-align: center;
+}
+.aboutHeader img {
+  width: 100px;
+  height: 100px;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.contactUs {
+  display: none;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px #aaa;
+  gap: 20px;
+  color: #666;
+  backdrop-filter: blur(5px);
+}
+
+.contactUs form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 12px 16px;
+}
+
+.inputElement {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputElement label {
+  font-size: 16px;
+}
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(150, 150, 150);
+  color: #777;
+}
+
+.input:focus {
+  border: 1px solid rgb(100, 100, 100);
+}
+
+.submitBtn {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 12px 16px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  background: linear-gradient(45deg, #fc3333, #ff5533);
+  border-radius: 5px;
+}
+
+.whatNot {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+}
